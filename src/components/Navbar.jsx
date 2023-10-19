@@ -1,4 +1,4 @@
-import { Box, Flex, IconButton, Input, Text, useColorMode } from '@chakra-ui/react';
+import { Box, Flex, IconButton, Input, Text, useColorMode, Image } from '@chakra-ui/react';
 import { SunIcon, MoonIcon } from '@chakra-ui/icons';
 
 const NavBar = () => {
@@ -9,15 +9,12 @@ const NavBar = () => {
     <Flex
       as="nav"
       align="center"
-      justify="space-between"
-      paddingX="4"
-      paddingY="2"
-      borderBottom="1px"
+      justify="space-around"
       borderColor="gray.200"
     >
       {/* Logo */}
-      <Box flex="1">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQHoreyJ7D4p1Miyxi4m6dB1naN2TIFNNLUQ&usqp=CAU" alt="Logo" width="40" height="40" />
+      <Box flex="1"> 
+        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQHoreyJ7D4p1Miyxi4m6dB1naN2TIFNNLUQ&usqp=CAU" alt="Logo" width={"100px"} />
       </Box>
 
       {/* Search Bar */}
@@ -25,6 +22,7 @@ const NavBar = () => {
         type="text"
         placeholder="Search"
         marginRight="4"
+        width={"68%"}
       />
 
       {/* Explore */}

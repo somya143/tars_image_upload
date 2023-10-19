@@ -1,0 +1,11 @@
+.image_upload{
+    width: 90%;
+    margin: auto;
+    display : grid;
+    grid-template-columns : repeat(auto-fit, minmax(300px,max-content));
+    justify-content : center;
+    font-size : 15px;
+    margin-top: 10px;
+    gap: 20px;
+    margin-bottom: 10px;
+}

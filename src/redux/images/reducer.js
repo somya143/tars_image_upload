@@ -20,7 +20,7 @@ const imagesReducer = (state=initialState , {type , payload}) => {
                 ...state,
                 isLoading : false,
                 isError : false,
-                images_data : [...payload.images]
+                images_data : [...payload]
             }
         }
         case get_images_failure : {
