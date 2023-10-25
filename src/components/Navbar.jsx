@@ -14,7 +14,7 @@ const NavBar = () => {
     >
       {/* Logo */}
       <Box flex="1"> 
-        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQHoreyJ7D4p1Miyxi4m6dB1naN2TIFNNLUQ&usqp=CAU" alt="Logo" width={"100px"} />
+        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ43MOJcAoKgjHKSxh9lXMudqSZz3lTkT1DEw&usqp=CAU" alt="Logo" width={"100px"} />
       </Box>
 
       {/* Search Bar */}
